@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content-container {
+  max-width: 500px;
+  height: fit-content;
+  margin: 20vh auto auto;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.inner-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.logo {
+  max-height: 20vh;
+}
+
+.select-margin {
+  margin: 6px 6px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
